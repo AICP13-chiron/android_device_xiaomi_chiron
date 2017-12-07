@@ -167,6 +167,12 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service
 
+
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0-java
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \

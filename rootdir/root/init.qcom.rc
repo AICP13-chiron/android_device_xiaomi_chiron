@@ -162,9 +162,6 @@ on boot
 
      # Camera
     setprop persist.camera.mobicat 2
-    setprop persist.camera.stats.debugexif 3080192
-    setprop persist.ts.rtmakeup false
-    setprop persist.camera.HAL3.enabled 1
 
 #   Define TCP buffer sizes for various networks
 #   ReadMin, ReadInitial, ReadMax, WriteMin, WriteInitial, WriteMax,

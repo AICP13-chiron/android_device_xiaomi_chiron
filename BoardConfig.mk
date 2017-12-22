@@ -269,3 +269,5 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
 -include vendor/xiaomi/sagit/BoardConfigVendor.mk
+
+ALLOW_MISSING_DEPENDENCIES=true

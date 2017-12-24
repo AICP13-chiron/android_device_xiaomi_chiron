@@ -15,7 +15,7 @@
 #
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/xiaomi/sagit/sagit-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/chiron/chiron-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/xiaomi/sagit/prebuilt/system,system)
+    $(call find-copy-subdir-files,*,device/xiaomi/chiron/prebuilt/system,system)
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -330,7 +330,7 @@ PRODUCT_COPY_FILES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_sagit
+    librecovery_updater_chiron
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
